@@ -1,0 +1,243 @@
+[
+    {
+        "id": "ps4-1",
+        "titulo": "god of war",
+        "imagen": "./img/godofwar5.jpg",
+        "categoria": {
+            "nombre": "god of war",
+            "id": "ps4",
+            "lanzamiento":2018
+            
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-2",
+        "titulo": "the last of us II",
+        "imagen": "./img/thelastofus.jpg",
+        "categoria": {
+            "nombre": "the last of us",
+            "id": "ps4",
+            "lanzamiento":2018
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-3",
+        "titulo": "horizon ",
+        "imagen": "./img/horion2.jpg",
+        "categoria": {
+            "nombre": "horizon",
+            "id": "ps4",
+            "lanzamiento":2019
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-4",
+        "titulo": "battlefield",
+        "imagen": "./img/2024.jpg",
+        "categoria": {
+            "nombre": "batetlefli",
+            "id": "ps4"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-5",
+        "titulo": "grand theft auto V",
+        "imagen": "./img/gtavps4.jpg",
+        "categoria": {
+            "nombre": "gtav ",
+            "id": "ps4"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-6",
+        "titulo": "Ghost of tsushima",
+        "imagen": "./img/ghostoftoshima.jpg",
+        "categoria": {
+            "nombre": "Ghost of tsushima",
+            "id": "ps4"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-7",
+        "titulo": "El Den Ring", 
+        "imagen": "./img/eldenring.jpg",
+        "categoria": {
+            "nombre": "El Den Ring",
+            "id": "ps4"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "ps4-8",
+        "titulo": "Batman",
+        "imagen": "./img/batman.jpg",
+        "categoria": {
+            "nombre": "Batman",
+            "id": "ps4"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-1",
+        "titulo": "Tom rider",
+        "imagen": "./img/tomrider.jpg",
+        "categoria": {
+            "nombre": "tom rider",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-2",
+        "titulo": "Ghost Recon",
+        "imagen": "./img/point.jpg",
+        "categoria": {
+            "nombre": "ghost recon",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-3",
+        "titulo": "Tony hawk's 5",
+        "imagen": "./img/tony5.jpg",
+        "categoria": {
+            "nombre": "tony hawk",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-4",
+        "titulo": "Need for speed",
+        "imagen": "./img/needforspeed.jpg",
+        "categoria": {
+            "nombre": "need for speed",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-5",
+        "titulo": "grand theft auto V",
+        "imagen": "./img/gtavxbox.jpg",
+        "categoria": {
+            "nombre": "gtav ",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-6",
+        "titulo": "IMMORTALS FENIX",
+        "imagen": "./img/immortals.jpg",
+        "categoria": {
+            "nombre": "immortal",
+            "id": "xbox",
+            "lanzamiento": 2018
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-7",
+        "titulo": "Forza 6",
+        "imagen": "./img/forza6.jpg",
+        "categoria": {
+            "nombre": "forza",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "xbox-8",
+        "titulo": "ANTHEM",
+        "imagen": "./img/anthem.jpg",
+        "categoria": {
+            "nombre": "anthem",
+            "id": "xbox"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "nintendo-1",
+        "titulo": "Luigi's mansion 3",
+        "imagen": "./img/mansion3.jpg",
+        "categoria": {
+            "nombre": "luigis mansion",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "nintendo-2",
+        "titulo": "Mario kart 8",
+        "imagen": "./img/mariokart8.jpg",
+        "categoria": {
+            "nombre": "mario karts",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },    {
+        "id": "nintendo-3",
+        "titulo": "Zelda breath of the wild ",
+        "imagen": "./img/zeldawild.jpg ",
+        "categoria": {
+            "nombre": "zelda",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },  {
+        "id": "nintendo-4",
+        "titulo": "Mario odyssey",
+        "imagen": "./img/odyssey.jpg",
+        "categoria": {
+            "nombre": "odyssey",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "nintendo-5",
+        "titulo": "Hyrule warriors",
+        "imagen": "./img/hyrule.jpg",
+        "categoria": {
+            "nombre": "Hyrule warriors",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },{
+        "id": "nintendo-6",
+        "titulo": "dragon ball z",
+        "imagen": "./img/dragonballz.jpg",
+        "categoria": {
+            "nombre": "dragon ball z",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },{
+        "id": "nintendo-7",
+        "titulo": "super smash bros",
+        "imagen": "./img/ultimate.jpg",
+        "categoria": {
+            "nombre": "super smash bros",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    },{
+        "id": "nintendo-8",
+        "titulo": "Mortal Kombat 11",
+        "imagen": "./img/mortalkombat11.jpg",
+        "categoria": {
+            "nombre": "Mortal Kombat 11",
+            "id": "Nintendo"
+        },
+        "precio": 1000
+    }
+   
+]
