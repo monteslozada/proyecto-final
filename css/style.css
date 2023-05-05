@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --clr-main: #0d0d0e;
+    --clr-main: #0c0c0c;
     --clr-main-light: #f6f6f8;
     --clr-white: #ececec;
     --clr-gray: #e2e2e2;
@@ -128,17 +128,18 @@ aside {
     color: var(--clr-main-light);
     font-size: .85rem;
 }
-
-main {
+ /* main {
     background-color: var(--clr-white);
     margin: 1rem;
     margin-left: 0;
     border-radius: 2rem;
     padding: 3rem;
-}
+}  */
 .titulo-principal {
-    color: var(--clr-main);
+
     margin-bottom: 2rem;
+    color: white;
+    padding: 30px;
 }
 
 .contenedor-productos {
@@ -196,7 +197,8 @@ main {
 
 .carrito-vacio,
 .carrito-comprado {
-    color: var(--clr-main);
+    color: white;
+    /* color: var(--clr-main); */
 }
 
 .carrito-productos {
@@ -286,27 +288,27 @@ main {
 }
 
 
-/* cambio**/
+/* cambio*/
 .cambio{
     background-image: url(../img/cambio.jpg);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover; 
- } 
+ }  
 
  form{
    
     width: 450px;
-    margin: auto;
+     margin: auto;
     background: rgb(5, 5, 5);
-    padding: 10px 20px;
+    padding: 10px 20px; 
     box-sizing: border-box;
-    margin-top: 20px;
+     margin-top: 20px;
     border-radius: 7px;
     color: rgb(240, 229, 229);
     font-size: 20px;
     text-align: center;
-}
+} 
 
 
 input, textarea{
@@ -314,25 +316,25 @@ input, textarea{
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
-}
+} 
 
 textarea{
     min-height: 100px;
     max-width: 200px;
     max-width: 100%;
 
-}
+} 
 
-#boton{
+/* #boton{
     background: #525353;
     color: white;
     padding: 20px;
 
-}
-#boton:hover {
+} */
+/* #boton:hover {
     cursor: pointer;
 }
-
+ */
 
 
 

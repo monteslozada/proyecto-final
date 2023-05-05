@@ -18,7 +18,7 @@
         "categoria": {
             "nombre": "the last of us",
             "id": "ps4",
-            "lanzamiento":2018
+            "lanzamiento":2020
         },
         "precio": 1000
     },
@@ -29,7 +29,7 @@
         "categoria": {
             "nombre": "horizon",
             "id": "ps4",
-            "lanzamiento":2019
+            "lanzamiento":2017
         },
         "precio": 1000
     },
@@ -39,7 +39,8 @@
         "imagen": "./img/2024.jpg",
         "categoria": {
             "nombre": "batetlefli",
-            "id": "ps4"
+            "id": "ps4",
+            "lanzamiento":2016
         },
         "precio": 1000
     },
@@ -49,7 +50,8 @@
         "imagen": "./img/gtavps4.jpg",
         "categoria": {
             "nombre": "gtav ",
-            "id": "ps4"
+            "id": "ps4",
+            "lanzamiento":2013
         },
         "precio": 1000
     },
@@ -59,7 +61,8 @@
         "imagen": "./img/ghostoftoshima.jpg",
         "categoria": {
             "nombre": "Ghost of tsushima",
-            "id": "ps4"
+            "id": "ps4",
+            "lanzamiento":2020
         },
         "precio": 1000
     },
@@ -69,9 +72,11 @@
         "imagen": "./img/eldenring.jpg",
         "categoria": {
             "nombre": "El Den Ring",
-            "id": "ps4"
+            "id": "ps4",
+            "lanzamiento":2022
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-8",
@@ -79,7 +84,8 @@
         "imagen": "./img/batman.jpg",
         "categoria": {
             "nombre": "Batman",
-            "id": "ps4"
+            "id": "ps4",
+            "lanzamiento":2015
         },
         "precio": 1000
     },
@@ -89,7 +95,8 @@
         "imagen": "./img/tomrider.jpg",
         "categoria": {
             "nombre": "tom rider",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2013
         },
         "precio": 1000
     },
@@ -99,7 +106,8 @@
         "imagen": "./img/point.jpg",
         "categoria": {
             "nombre": "ghost recon",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2019
         },
         "precio": 1000
     },
@@ -109,7 +117,8 @@
         "imagen": "./img/tony5.jpg",
         "categoria": {
             "nombre": "tony hawk",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":5
         },
         "precio": 1000
     },
@@ -119,7 +128,8 @@
         "imagen": "./img/needforspeed.jpg",
         "categoria": {
             "nombre": "need for speed",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2010
         },
         "precio": 1000
     },
@@ -129,7 +139,8 @@
         "imagen": "./img/gtavxbox.jpg",
         "categoria": {
             "nombre": "gtav ",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2013
         },
         "precio": 1000
     },
@@ -140,9 +151,11 @@
         "categoria": {
             "nombre": "immortal",
             "id": "xbox",
-            "lanzamiento": 2018
+            "lanzamiento": 2020
+            
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },
     {
         "id": "xbox-7",
@@ -150,7 +163,8 @@
         "imagen": "./img/forza6.jpg",
         "categoria": {
             "nombre": "forza",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2015
         },
         "precio": 1000
     },
@@ -160,17 +174,19 @@
         "imagen": "./img/anthem.jpg",
         "categoria": {
             "nombre": "anthem",
-            "id": "xbox"
+            "id": "xbox",
+            "lanzamiento":2019
         },
         "precio": 1000
     },
     {
-        "id": "nintendo-1",
+        "id": "Nintendo-1",
         "titulo": "Luigi's mansion 3",
         "imagen": "./img/mansion3.jpg",
         "categoria": {
             "nombre": "luigis mansion",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2019
         },
         "precio": 1000
     },
@@ -180,7 +196,8 @@
         "imagen": "./img/mariokart8.jpg",
         "categoria": {
             "nombre": "mario karts",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2018
         },
         "precio": 1000
     },    {
@@ -189,7 +206,8 @@
         "imagen": "./img/zeldawild.jpg ",
         "categoria": {
             "nombre": "zelda",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2017
         },
         "precio": 1000
     },  {
@@ -198,7 +216,8 @@
         "imagen": "./img/odyssey.jpg",
         "categoria": {
             "nombre": "odyssey",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2017
         },
         "precio": 1000
     },
@@ -208,7 +227,8 @@
         "imagen": "./img/hyrule.jpg",
         "categoria": {
             "nombre": "Hyrule warriors",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2020
         },
         "precio": 1000
     },{
@@ -217,7 +237,8 @@
         "imagen": "./img/dragonballz.jpg",
         "categoria": {
             "nombre": "dragon ball z",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2018
         },
         "precio": 1000
     },{
@@ -226,7 +247,8 @@
         "imagen": "./img/ultimate.jpg",
         "categoria": {
             "nombre": "super smash bros",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2018
         },
         "precio": 1000
     },{
@@ -235,7 +257,8 @@
         "imagen": "./img/mortalkombat11.jpg",
         "categoria": {
             "nombre": "Mortal Kombat 11",
-            "id": "Nintendo"
+            "id": "nintendo",
+            "lanzamiento":2019
         },
         "precio": 1000
     }

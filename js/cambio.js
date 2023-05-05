@@ -1,64 +1,57 @@
-// Obtener referencia al formulario
-const formulario = document.querySelector('form');
+// Obtener los elementos del formulario
+const opciones = document.getElementById("opciones");
+const lanzamiento = document.getElementsByName("lanzamiento")[0];
+const botonEnviar = document.getElementById("cambio");
 
-// Obtener referencia a los elementos del formulario
-const opciones = formulario.opciones;
-const lanzamiento = formulario.lanzamiento;
-const cambio = formulario.cambio;
+// Cargar el archivo JSON de productos
+const url = "productos.json";
+let productos = [];
 
-// Obtener referencia al contenedor donde se mostrarán los juegos
-const contenedorJuegos = document.getElementById('juegos');
-
-// Cargar el archivo JSON con los juegos
 fetch('./js/productos.json')
-  .then(response => response.json())
-  .then(juegos => {
-    // Escuchar el evento click del botón "enviar"
-    cambio.addEventListener('click', () => {
-      // Obtener la consola seleccionada y el año de lanzamiento ingresado por el usuario
-      const consola = opciones.value;
-      const anio = parseInt(lanzamiento.value);
-
-      // Filtrar los juegos compatibles con la consola y el año de lanzamiento especificados
-      const juegosFiltrados = juegos.filter(juego => juego.categoria.id === consola && (!juego.categoria.lanzamiento || juego.categoria.lanzamiento === lanzamiento));
-
-      // Limpiar el contenedor de juegos
-      contenedorJuegos.innerHTML = '';
-
-      // Mostrar los juegos compatibles
-      if (juegosFiltrados.length > 0) {
-        juegosFiltrados.forEach(juego => {
-          const div = document.createElement('div');
-          div.innerHTML = `
-            <img src="${juego.imagen}" alt="${juego.titulo}">
-            <h3>${juego.titulo}</h3>
-            <p>Precio: ${juego.precio}</p>
-          `;
-          contenedorJuegos.appendChild(div);
-        });
-      } else {
-        contenedorJuegos.innerHTML = '<p>No se encontraron juegos compatibles.</p>';
-      }
+    .then((response) => response.json())
+    .then((data) => {
+        productos = data;
+    })
+    .catch((error) => {
+        console.log("Error al cargar los productos", error);
     });
-  })
-  .catch(error => console.log(error));
+
+// Agregar un event listener al botón de enviar
+botonEnviar.addEventListener("click", (e) => {
+    e.preventDefault()
+    // Obtener los valores del formulario
+    const consola = opciones.value;
+    const lanz = parseInt(lanzamiento.value);
+
+    // Filtrar los productos compatibles
+    const juegosCompatibles = productos.filter((producto) => {
+        return producto.categoria.id === consola && producto.categoria.lanzamiento === lanz;
+    });
+
+    // Generar las tarjetas de los juegos compatibles
+    let juegosHTML = "";
+    juegosCompatibles.forEach((juego) => {
+        juegosHTML += `
+        <divclass="producto-detalles">
+          <img class="producto-imagen" src="${juego.imagen}" alt="${juego.titulo}" />
+          <h3>${juego.titulo}</h3>
+          <p>Categoría: ${juego.nombre}</p>
+          <p>cambio: ${juego.cambio}</p>
+        </div>
+      `;
 
 
-  const resultadosDiv = document.getElementById("resultados");
+    });
 
-// Crea un elemento h2 con el título de la búsqueda
-const titulo = document.createElement("h2");
-titulo.textContent = `Resultados para "${categoria}" lanzados en ${lanzamiento}`;
-resultadosDiv.appendChild(titulo);
-
-// Crea una lista ul para mostrar los juegos encontrados
-const lista = document.createElement("ul");
-
-// Recorre los juegos y agrega un li para cada uno
-juegos.forEach(juego => {
-  const li = document.createElement("li");
-  li.textContent = juego.titulo;
-  lista.appendChild(li);
+    // Agregar las tarjetas al div de juegos
+    const juegosDiv = document.getElementById("cambio");
+    juegosDiv.innerHTML = juegosHTML;
 });
 
-resultadosDiv.appendChild(lista);
+
+
+
+
+
+
+
