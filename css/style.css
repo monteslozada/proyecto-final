@@ -473,4 +473,11 @@ textarea{
    
     width: 300px;
 }
+.close-menu {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
 }
