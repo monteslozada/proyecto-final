@@ -357,7 +357,7 @@ textarea{
     aside {
         position: fixed;
         z-index: 9;
-        background-color: var(--clr-main);
+        background-color:black;
         left: 0;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .75);
         transform: translateX(-100%);
@@ -392,15 +392,16 @@ textarea{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
     }
 
     .header-mobile .logo {
-        color: gray;
+        color: white;
     }
 
     .open-menu, .close-menu {
         background-color: transparent;
-        color: gray;
+        color: white;
         border: 0;
         font-size: 2rem;
         cursor: pointer;
