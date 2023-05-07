@@ -430,6 +430,35 @@ textarea{
         row-gap: 1rem;
     }
     
+    
+/* cambio*/
+.cambio{
+    background-image: url(../img/cambio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+ }  
+
+ form{
+   
+    width: 350px;
+ 
+} 
+
+
+input, textarea{
+    width: 50px;
+    margin-bottom: 20px;
+    padding: 7px;
+
+} 
+
+textarea{
+    min-height: 80px;
+    max-width: 50px;
+    max-width: 50%;
+
+} 
 
 }
 
@@ -439,4 +468,9 @@ textarea{
     .contenedor-productos {
         grid-template-columns: 1fr;
     }
+    
+ form{
+   
+    width: 300px;
+}
 }
