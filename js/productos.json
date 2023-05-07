@@ -9,7 +9,8 @@
             "lanzamiento":2018
             
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-2",
@@ -20,7 +21,8 @@
             "id": "ps4",
             "lanzamiento":2020
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-3",
@@ -31,7 +33,8 @@
             "id": "ps4",
             "lanzamiento":2017
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-4",
@@ -42,7 +45,8 @@
             "id": "ps4",
             "lanzamiento":2016
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-5",
@@ -53,7 +57,8 @@
             "id": "ps4",
             "lanzamiento":2013
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-6",
@@ -64,7 +69,8 @@
             "id": "ps4",
             "lanzamiento":2020
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio":500
     },
     {
         "id": "ps4-7",
@@ -120,7 +126,9 @@
             "id": "xbox",
             "lanzamiento":5
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
+
     },
     {
         "id": "xbox-4",
@@ -131,7 +139,10 @@
             "id": "xbox",
             "lanzamiento":2010
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
+        
+
     },
     {
         "id": "xbox-5",
@@ -142,7 +153,8 @@
             "id": "xbox",
             "lanzamiento":2013
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },
     {
         "id": "xbox-6",
@@ -166,7 +178,9 @@
             "id": "xbox",
             "lanzamiento":2015
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
+
     },
     {
         "id": "xbox-8",
@@ -177,7 +191,8 @@
             "id": "xbox",
             "lanzamiento":2019
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },
     {
         "id": "Nintendo-1",
@@ -188,7 +203,8 @@
             "id": "nintendo",
             "lanzamiento":2019
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },
     {
         "id": "nintendo-2",
@@ -199,7 +215,8 @@
             "id": "nintendo",
             "lanzamiento":2018
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },    {
         "id": "nintendo-3",
         "titulo": "Zelda breath of the wild ",
@@ -209,7 +226,8 @@
             "id": "nintendo",
             "lanzamiento":2017
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },  {
         "id": "nintendo-4",
         "titulo": "Mario odyssey",
@@ -219,7 +237,8 @@
             "id": "nintendo",
             "lanzamiento":2017
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },
     {
         "id": "nintendo-5",
@@ -230,7 +249,8 @@
             "id": "nintendo",
             "lanzamiento":2020
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },{
         "id": "nintendo-6",
         "titulo": "dragon ball z",
@@ -240,7 +260,8 @@
             "id": "nintendo",
             "lanzamiento":2018
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },{
         "id": "nintendo-7",
         "titulo": "super smash bros",
@@ -250,7 +271,8 @@
             "id": "nintendo",
             "lanzamiento":2018
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     },{
         "id": "nintendo-8",
         "titulo": "Mortal Kombat 11",
@@ -260,7 +282,8 @@
             "id": "nintendo",
             "lanzamiento":2019
         },
-        "precio": 1000
+        "precio": 1000,
+        "cambio": 500
     }
    
 ]

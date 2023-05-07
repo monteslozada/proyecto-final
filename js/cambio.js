@@ -3,6 +3,16 @@ const opciones = document.getElementById("opciones");
 const lanzamiento = document.getElementsByName("lanzamiento")[0];
 const botonEnviar = document.getElementById("cambio");
 
+
+
+const botonesCategorias = document.querySelectorAll(".boton-categoria");
+const tituloPrincipal = document.querySelector("#titulo-principal");
+let botonesAgregar = document.querySelectorAll(".producto-agregar");
+const numerito = document.querySelector("#numerito");
+
+
+
+
 // Cargar el archivo JSON de productos
 const url = "productos.json";
 let productos = [];
@@ -37,11 +47,12 @@ botonEnviar.addEventListener("click", (e) => {
           <h3>${juego.titulo}</h3>
           <p>Categoría: ${juego.nombre}</p>
           <p>cambio: ${juego.cambio}</p>
+          <button class="producto-agregar" id="${juego.id}">Agregar</button>
         </div>
       `;
 
-
-    });
+    
+    })
 
     // Agregar las tarjetas al div de juegos
     const juegosDiv = document.getElementById("cambio");
@@ -49,9 +60,4 @@ botonEnviar.addEventListener("click", (e) => {
 });
 
 
-
-
-
-
-
-
+//agregar al carrrito
